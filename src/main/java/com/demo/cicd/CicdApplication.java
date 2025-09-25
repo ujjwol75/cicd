@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CicdApplication {
 
 	@GetMapping
-	public String message												() {
+	public String message() {
 		return "Hello Ujjwol Neupane. What's up ? ";
 	}
 
